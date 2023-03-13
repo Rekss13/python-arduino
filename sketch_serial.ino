@@ -9,7 +9,7 @@ long delta;
 bool isStop;
 
 void setup() {
-  digitalWrite(PIN_13, OUTPUT);
+  pinMode(PIN_13, OUTPUT);
   Serial.begin(9600);
   setStart();  
 }
